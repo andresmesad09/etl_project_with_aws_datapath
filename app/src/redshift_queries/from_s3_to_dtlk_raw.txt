@@ -1,0 +1,104 @@
+-- Copy actor
+COPY dtlk_raw.actor FROM 's3://datapath-final-project/data/actor/actor.csv' 
+CREDENTIALS 'aws_iam_role=arn:aws:iam::669324002715:role/redshift_role' 
+DELIMITER ',' REGION 'us-east-1'
+IGNOREHEADER 1
+IGNOREALLERRORS;
+
+-- Copy address
+COPY dtlk_raw.address FROM 's3://datapath-final-project/data/address/address.csv' 
+CREDENTIALS 'aws_iam_role=arn:aws:iam::669324002715:role/redshift_role' 
+DELIMITER ',' REGION 'us-east-1'
+IGNOREHEADER 1
+IGNOREALLERRORS;
+
+-- Copy category
+COPY dtlk_raw.category FROM 's3://datapath-final-project/data/category/category.csv' 
+CREDENTIALS 'aws_iam_role=arn:aws:iam::669324002715:role/redshift_role' 
+DELIMITER ',' REGION 'us-east-1'
+IGNOREHEADER 1
+IGNOREALLERRORS;
+
+-- Copy city
+COPY dtlk_raw.city FROM 's3://datapath-final-project/data/city/city.csv' 
+CREDENTIALS 'aws_iam_role=arn:aws:iam::669324002715:role/redshift_role' 
+DELIMITER ',' REGION 'us-east-1'
+IGNOREHEADER 1
+IGNOREALLERRORS;
+
+-- Copy country
+COPY dtlk_raw.country FROM 's3://datapath-final-project/data/country/country.csv' 
+CREDENTIALS 'aws_iam_role=arn:aws:iam::669324002715:role/redshift_role' 
+DELIMITER ',' REGION 'us-east-1'
+IGNOREHEADER 1
+IGNOREALLERRORS;
+
+-- Copy customer
+COPY dtlk_raw.customer FROM 's3://datapath-final-project/data/customer/customer.csv' 
+CREDENTIALS 'aws_iam_role=arn:aws:iam::669324002715:role/redshift_role' 
+DELIMITER ',' REGION 'us-east-1'
+IGNOREHEADER 1
+IGNOREALLERRORS;
+
+-- Copy film_actor
+COPY dtlk_raw.film_actor FROM 's3://datapath-final-project/data/film_actor/film_actor.csv' 
+CREDENTIALS 'aws_iam_role=arn:aws:iam::669324002715:role/redshift_role' 
+DELIMITER ',' REGION 'us-east-1'
+IGNOREHEADER 1
+IGNOREALLERRORS;
+
+-- Copy film_category
+COPY dtlk_raw.film_category FROM 's3://datapath-final-project/data/film_category/film_category.csv' 
+CREDENTIALS 'aws_iam_role=arn:aws:iam::669324002715:role/redshift_role' 
+DELIMITER ',' REGION 'us-east-1'
+IGNOREHEADER 1
+IGNOREALLERRORS;
+
+-- Copy film
+COPY dtlk_raw.film FROM 's3://datapath-final-project/data/film/film.csv' 
+CREDENTIALS 'aws_iam_role=arn:aws:iam::669324002715:role/redshift_role' 
+DELIMITER ',' REGION 'us-east-1'
+IGNOREHEADER 1
+IGNOREALLERRORS;
+
+-- Copy inventory
+COPY dtlk_raw.inventory FROM 's3://datapath-final-project/data/inventory/inventory.csv' 
+CREDENTIALS 'aws_iam_role=arn:aws:iam::669324002715:role/redshift_role' 
+DELIMITER ',' REGION 'us-east-1'
+IGNOREHEADER 1
+IGNOREALLERRORS;
+
+-- Copy language
+COPY dtlk_raw.language FROM 's3://datapath-final-project/data/language/language.csv' 
+CREDENTIALS 'aws_iam_role=arn:aws:iam::669324002715:role/redshift_role' 
+DELIMITER ',' REGION 'us-east-1'
+IGNOREHEADER 1
+IGNOREALLERRORS;
+
+-- Copy payment
+COPY dtlk_raw.payment FROM 's3://datapath-final-project/data/payment/payment.csv' 
+CREDENTIALS 'aws_iam_role=arn:aws:iam::669324002715:role/redshift_role' 
+DELIMITER ',' REGION 'us-east-1'
+IGNOREHEADER 1
+IGNOREALLERRORS;
+
+-- Copy rental
+COPY dtlk_raw.rental FROM 's3://datapath-final-project/data/rental/rental.csv' 
+CREDENTIALS 'aws_iam_role=arn:aws:iam::669324002715:role/redshift_role' 
+DELIMITER ',' REGION 'us-east-1'
+IGNOREHEADER 1
+IGNOREALLERRORS;
+
+-- Copy staff
+COPY dtlk_raw.staff FROM 's3://datapath-final-project/data/staff/staff.csv' 
+CREDENTIALS 'aws_iam_role=arn:aws:iam::669324002715:role/redshift_role' 
+DELIMITER ',' REGION 'us-east-1'
+IGNOREHEADER 1
+IGNOREALLERRORS;
+
+-- Copy store
+COPY dtlk_raw.store FROM 's3://datapath-final-project/data/store/store.csv' 
+CREDENTIALS 'aws_iam_role=arn:aws:iam::669324002715:role/redshift_role' 
+DELIMITER ',' REGION 'us-east-1'
+IGNOREHEADER 1
+IGNOREALLERRORS;
